@@ -5,8 +5,14 @@ let todo = document.getElementById("todo");
 //todoList = document.getElementById("todo"[""]);
 
 const todoList = [];
-todoList.push("estudar array", "fazer revisao")
+todoList.push("estudar array", "fazer revisao", "estudar python")
+//console.log(todoList[0])
+todoList[0] = "ler"; //muda tarefa
+todoList.pop() //apaga o ultimo elemento da lista
+todoList.splice(1) // Remove 1 elemento a partir do índice
+
 console.log(todoList)
+
 
 // const saveTodo = (todo) => {
 //   const newTodo = {
