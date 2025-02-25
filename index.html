@@ -1,32 +1,50 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>To do list</title>
-   <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To do list</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="homePage">
+      <h1>To-do list</h1>
+    </div>
+    <p>
+      Let's starting a new day, with new to-do things! Don't forget what what
+      remains to be done.
+    </p>
 
-   <div class="homePage">
-      <h1>
-         To-do list
-      </h1>
-   </div>
-   <p>
-      Let's starting a new day, with new to-do things! Don't forget what what remains to be done.
-   </p>
+    <div id="todoInput">
+      <input type="text" name="todo" id="todo" placeholder="to-do" />
+    </div>
 
-   <div id="todo">
-      <input type="text" name="todo" id="todoInput">
-   </div>
-   <div id="addTodo">
-      <button onclick="">add to-do</button>
-   </div>
-   <div id="deleteTodo">
-      <button onclick="">delete to-do</button>
-   </div>
+    <div class="button-group">
+      <div class="addTodo">
+        <button onclick="addTodoList()">
+         add to-do         
+        </button>
+      </div>
+      <div class="deleteTodo">
+        <button onclick="deleteTodo()">delete to-do</button>
+      </div>
+    </div>
 
-   <script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
+<!-- 
+<form id="form">
+   <div class="input-wrapper">
+      <div class="input-group">
+         <label for="email">
+            <img src="mail.svg" alt="Email icon">
+         </label>
+         <input type="email" id="email" name="email" placeholder="E-mail">
+      </div>
+
+      <div class="input-group">
+         <label for="phone">
+            <img src="phone.svg" alt="Phone icon">
+         </label>
+         <input type="text" id="phone" name="phone" placeholder="Telefone"> -->

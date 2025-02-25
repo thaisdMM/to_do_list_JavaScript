@@ -1,9 +1,11 @@
-let todo = document.getElementById("todo");
-let addTodo = document.getElementById("addTodo");
-let deleteTodo = document.getElementById("deleteTodo");
+// let todo = document.getElementById("todo");
+// let addTodo = document.getElementById("addTodo");
+// let deleteTodo = document.getElementById("deleteTodo");
 
-let totalTodo = []
-
+function addTodoList() {
+  console.log("Clicou no botão");
+}
+console.log("executo direto");
 
 // function todoList(todo) {
 //    if (addTodo) === true
@@ -23,8 +25,6 @@ let totalTodo = []
 //    var resultado = n1.valueAsNumber + n2.valueAsNumber;
 //    r.textContent = isNaN(resultado) ? "" : resultado;
 //  });
-
-
 
 // var fslist = document.querySelectorAll(".multiple-field");
 
