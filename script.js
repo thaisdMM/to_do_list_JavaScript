@@ -1,16 +1,25 @@
-// let todo = document.getElementById("todo");
+let todo = document.getElementById("todo");
 // let addTodo = document.getElementById("addTodo");
 // let deleteTodo = document.getElementById("deleteTodo");
+
+//todoList = document.getElementById("todo"[""]);
+
+const todoList = [];
+todoList.push("estudar array", "fazer revisao")
+console.log(todoList)
+
+// const saveTodo = (todo) => {
+//   const newTodo = {
+//     todo,
+//   };
+//   todoList.push(newTodo);
+//   console.log(todoList);
+//   return newTodo;
+// };
 
 function addTodoList() {
   console.log("Clicou no botão");
 }
-console.log("executo direto");
-
-// function todoList(todo) {
-//    if (addTodo) === true
-//       return todo
-// }
 
 // function calcula() {
 //    var resultado = n1.valueAsNumber + n2.valueAsNumber;
